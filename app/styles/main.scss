@@ -1,0 +1,21 @@
+// bower:scss
+@import "materialize/sass/materialize.scss";
+// endbower
+
+.browsehappy {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+#logo-container {
+  max-height: 100%;
+}
+.side-nav li {
+  width: 100%;
+}
+.social-icon {
+  width: 75px;
+}
+.social-icon-container {
+}
