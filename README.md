@@ -58,9 +58,9 @@ Name | Type | Default | Description
 **id** | optional | string | blank | An ID that will be asigned to the created HTML element.
 **view** | required | string | front | The perspective of the phone.  Possible values are **front**, **left**, and **right**.
 **image** | required | string | blank | URL of the image to use for the phone. A total of 9 images are included with this script.
-**scale** | required | float | 1 | Resize the phone preview by a multiplier value. For instance, a value of 1 is full size, while 0.5 would half the size. If this option is set, both width and height options are ignored.
-**width** | required | integer | 428 | The width of the phone in pixels. If this option is set, the height option is automatically set to proportion. If scale is not set, it will be automatically set to proportion as well.
-**height** | required | integer | 889 | The height of the phone in pixels. If this option is set, both the scale and width options are ignored and automatically set to proportion.
+**scale** | optional | float | 1 | Resize the phone preview by a multiplier value. For instance, a value of 1 is full size, while 0.5 would half the size. If this option is set, both width and height options are ignored.
+**width** | optional | integer | 428 | The width of the phone in pixels. If this option is set, the height option is automatically set to proportion. If scale is not set, it will be automatically set to proportion as well.
+**height** | optional | integer | 889 | The height of the phone in pixels. If this option is set, both the scale and width options are ignored and automatically set to proportion.
 
 
 # Credits
