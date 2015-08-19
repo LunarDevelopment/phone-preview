@@ -7,14 +7,40 @@
           Yes! Heres a free directive, use it however you like, and just <a href="mailto:development.lunar@gmail.com">Email me</a> if you have any questions or suggestions! 
         </p>
         <p>
-          And if you do use this then linkbacks to the <a href="">Repo</a> or <a>My Site</a> would be greatley appreciated!
+          And if you do use this then linkbacks to the <a href="https://github.com/LunarDevelopment/phone-preview">Repo</a> or <a>My Site</a> would be greatley appreciated!
         </p>
         <p>Or click a category to discover more.</p>
         <ul class="collapsible popout collapsible-accordion" data-collapsible="accordion">
           <li class="active">
-            <div class="collapsible-header waves-effect waves-purple active"><i class="material-icons purple-text">code</i>Multi-Platform</div>
+            <div class="collapsible-header waves-effect waves-purple active"><i class="material-icons purple-text">code</i>Get it!</div>
             <div class="collapsible-body" style="display: none;">
-              <p>With a mobile preview window!</p>
+              <p ><a href="https://github.com/LunarDevelopment/phone-preview">Github</a><br>
+                Include the phone-preview.js in your index<br>
+              Include the markup in your Ctrl and Template:</p>
+              <div class="row">
+                <div class="col s6">
+                  <strong>Controller As:</strong><br>
+                  <code>this.phoneSettings = {<br>
+                  url: 'http://www.lunar-development.com',<br>
+                  view: 'front',<br>
+                  image: 'images/iphone6_front_black.png',<br>
+                  id: 'phone-preview'<br>
+                    };</code><br>
+                  <strong>$scope:</strong><br>
+                  <code>$scope.phoneSettings = {<br>
+                  url: 'http://www.lunar-development.com',<br>
+                  view: 'front',<br>
+                  image: 'images/iphone6_front_black.png',<br>
+                  id: 'phone-preview'<br>
+                  };</code>
+                </div>
+                <div class="col s6">
+                  <strong>Controller As:</strong><br>
+                  <code>&lt;phone-preview obj="main.phoneSettings"&gt;&lt;/phone-preview&gt;</code><br>
+              <strong>$scope:</strong><br>
+                  <code>&lt;phone-preview obj="phoneSettings"&gt;&lt;/phone-preview&gt;</code>
+                </div>
+              </div>
             </div>
           </li>
           <li >
@@ -60,25 +86,13 @@
     </div>
     <div class="col l5 s12 padding-top3 hide-on-med-and-down">
       <div  class="section scrollspy">
-        <h3>Take a looksy!</h3>
+        <h3>Take A Look!</h3>
         <p class="caption">
         </p>
       </div>
       <div class="card-panel z-depth-2">
         <!--<div id="phone-preview"></div>-->
         <phone-preview obj="main.phoneSettings"></phone-preview>
-      </div>
-    </div>
-    <div class="col l5 s12 padding-top3 hide-on-large-only">
-      <div  class="section scrollspy">
-        <h3>Try One Of Our Apps</h3>
-        <div class="card-panel z-depth-2">
-          <p class="caption">
-            You can see a web based demo of an app <a href="http://www.emaildatabases.co.uk/apps/meridiandelta/www/">here</a> 
-          </p>
-          <p>Alternativley, you can dowload our app for <a href="ANDROIDAPPSTORE">Android</a> or <a href="IOSAPPSTORE">iOS</a>
-          </p>
-        </div>
       </div>
     </div>
   </div>

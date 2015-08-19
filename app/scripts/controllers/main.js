@@ -11,7 +11,7 @@ angular.module('phonepreviewApp')
   .controller('MainCtrl', function () {
   var vm = this; 
   vm.phoneSettings = {
-    url: 'http://www.emaildatabases.co.uk/apps/meridiandelta/www/',
+    url: 'http://www.lunar-development.co.uk/',
     view: 'front',
     image: 'images/iphone6_front_black.png',
     id: 'phone-preview'
