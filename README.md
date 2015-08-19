@@ -1,6 +1,6 @@
 # phone-preview Directive
 
-###An AngularJS directive for rendering a preview of an app / website within an iPhone frame. (Demo)[http://www.lunar-development.co.uk/Projects/phone-preview/]
+###An AngularJS directive for rendering a preview of an app / website within an iPhone frame. [Demo](http://www.lunar-development.co.uk/Projects/phone-preview/)
 
 # Features
 
